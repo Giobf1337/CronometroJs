@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <link rel="stylesheet" href="./style.css">
+        <!-- <link rel="icon" href="http://example.com/favicon.png">  browser tab icon-->
+
+        <title>Cronometro</title>
+    </head>
+
+    <body>
+        <form name="form_main">
+            <div class="cron-container">
+                <span id="hour">00</span>:
+                <span id="minute">00</span>:
+                <span id="millisecons">000</span>
+            </div>
+            <br />
+            <div class="clock-button">
+                <button type="button" id="back" name="back" onclick="back()"> Volta </button>
+                <button type="button" id="init" name="start" onclick="start()">Iniciar</button>
+                <button type="button" id="stop" name="stop" onclick="stop()">Parar </button>
+                <button type="button" id="reset" name="reset" onclick="reset()"> Zerar </button>
+            </div>
+            
+        </form>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
+

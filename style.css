@@ -1,0 +1,35 @@
+body{ 
+    background-color: #212121;
+}
+
+.clock-button{
+    display: flex;
+    justify-content:space-around; 
+    margin: 500px auto 0;
+  }
+
+.cron-container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 200px auto -200px;
+}
+
+button{
+    border-radius: 50%;
+    font-size: 18px;
+    size: 24px;
+    padding: 32px 16px;
+}
+
+#init{
+    background-color: lightgreen;
+    border: solid 2px;
+    border-color: cadetblue;
+}
+
+#stop{
+    background-color: indianred;
+    border: solid 2px;
+    border-color: crimson;
+}
